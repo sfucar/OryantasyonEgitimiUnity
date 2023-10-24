@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43de900460d85347af5a1f4ed516ffc, type: 3}
+  m_Name: "K\xFCt\xFCphane"
+  m_EditorClassIdentifier: 
+  title: "K\xFCt\xFCphane"
+  description: "K\xFCt\xFCphane R2 ile R1 dersliklerin aras\u0131ndaki a\u011Fa\xE7l\u0131
+    alana bak\u0131yor. Kuzey \xE7ar\u015F\u0131 ile yan yana."
+  questNumber: 4
+  latitude: 37.06025
+  longitude: 35.35501

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43de900460d85347af5a1f4ed516ffc, type: 3}
+  m_Name: "Rekt\xF6rl\xFCk"
+  m_EditorClassIdentifier: 
+  title: "Rekt\xF6rl\xFCk Binas\u0131"
+  description: "Rekt\xF6rl\xFCk binas\u0131"
+  questNumber: 7
+  latitude: 37.05773
+  longitude: 35.35553
