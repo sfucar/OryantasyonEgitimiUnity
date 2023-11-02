@@ -26,10 +26,6 @@ public class ScreenManagerObject : MonoBehaviour
     public RectTransform imageRectTransform;
     public float startX = -129.4f;
     public float endX = 112f;
-    
-
-    
-    
 
 
     public void SetTextTaskFinalCount(string StringValue){
@@ -53,21 +49,14 @@ public class ScreenManagerObject : MonoBehaviour
     {
         // 
         float t = elapsedTime / duration;
-
-        //X position between start and end values
         float newX = Mathf.Lerp(startX, endX, t);
-
-        // Update the position of the image RectTransform
+        // Update the position
         imageRectTransform.anchoredPosition = new Vector2(newX, imageRectTransform.anchoredPosition.y);
-
         // Increment the elapsed time... Last frame
         elapsedTime += Time.deltaTime;
 
-        // Wait for the end of the frame
         yield return null;
     }
-
-    // Ensure the image is at the target X position when the movement is done
     imageRectTransform.anchoredPosition = new Vector2(endX, imageRectTransform.anchoredPosition.y);
     ImageWarningBackground.SetActive(false);
     }
