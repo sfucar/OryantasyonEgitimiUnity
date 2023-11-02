@@ -27,7 +27,6 @@ public class ScreenManagerObject : MonoBehaviour
     public float startX = -129.4f;
     public float endX = 112f;
 
-
     public void SetTextTaskFinalCount(string StringValue){
         TextTaskFinalCount.text=StringValue;
     }
@@ -36,8 +35,6 @@ public class ScreenManagerObject : MonoBehaviour
         refreshVariable=0;
         StartCoroutine(MoveImageX(startX));
     }
-
-
 
     public IEnumerator MoveImageX(float startX){ 
     ImageWarningBackground.SetActive(true);       
@@ -76,7 +73,5 @@ public class ScreenManagerObject : MonoBehaviour
         
 
     }
-
-
 
 }
